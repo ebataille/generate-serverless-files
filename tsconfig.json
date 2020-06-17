@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2020",
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"sourceMap": true,
+		"removeComments": false,
+		"experimentalDecorators": true,
+		"baseUrl": "./"
+	},
+	"exclude": [
+		"test"
+	]
+}

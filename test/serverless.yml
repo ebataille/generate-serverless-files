@@ -1,0 +1,11 @@
+service: example
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-west-3
+  memorySize: 128
+  timeout: 10
+
+
+functions: ${file(./serverless-dynamic.js)}
